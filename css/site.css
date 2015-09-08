@@ -3,9 +3,10 @@
   background:
   no-repeat top/auto
   url("../img/heic1206a_1920_1200_med_dark.jpg");
+  background-size: cover;
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 100%;
   z-index: -1;
 }
 
@@ -78,7 +79,8 @@ body {
 }
 
 .hero {
-  margin-top: 85px;
+  padding-top: 25%;
+  padding-bottom: 25%
 }
 
 .hero > h1 {
@@ -94,18 +96,18 @@ body {
 }
 
 /**
-* Main content
-*/
-.no-padding {
-  padding: 0;
-}
-
-/**
 * Footer
 */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 20px;
+}
+
 .footer {
   border-top: 1px solid #666;
   padding-top: 10px;
-  margin-top: 50px;
-  color: #666
+  color: rgba(255,255,255,.75);
 }
