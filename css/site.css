@@ -74,12 +74,8 @@ body {
 * Hero
 */
 
-.hero-wrapper {
-  height: 324px;
-}
-
 .hero {
-  padding-top: 25%;
+  padding-top: 20%;
   padding-bottom: 25%
 }
 
